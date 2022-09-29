@@ -38,6 +38,7 @@ jobs:
     - name: Login to Azure
       run: |
         az login --identity 
+        az account set --subscription "86db72c7-d736-4e05-8b1d-f5a8002f9792"
 
     - name: "Terraform Setup"
       uses: hashicorp/setup-terraform@v1
