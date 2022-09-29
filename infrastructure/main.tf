@@ -16,7 +16,7 @@ terraform {
     container_name       = "plans"
     key                  = "root.terraform.tfstate"
   }
-  }
+  
 }
 
 provider "azapi" {
