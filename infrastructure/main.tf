@@ -11,8 +11,10 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "Core_Storage_RG"
+    subscription_id      = "86db72c7-d736-4e05-8b1d-f5a8002f9792"
     storage_account_name = "sm78gh65g8uhterraform003"
     container_name       = "plans"
+    key                  = "${{ secrets.BLOB_KEY }}"
   }
 }
 
