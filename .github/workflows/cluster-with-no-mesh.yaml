@@ -37,7 +37,7 @@ jobs:
 
     - name: Login to Azure
       run: |
-        az login --identity -u ${{ env.ARM_CLIENT_ID }}
+        az login --identity 
 
     - name: "Terraform Setup"
       uses: hashicorp/setup-terraform@v1
