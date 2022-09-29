@@ -11,7 +11,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "Core_Storage_RG"
-    storage_account_name = "bjdterraform003"
+    storage_account_name = "sm78gh65g8uhterraform003"
     container_name       = "plans"
   }
 }
