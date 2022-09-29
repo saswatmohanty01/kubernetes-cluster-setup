@@ -23,7 +23,7 @@ jobs:
       SERVICE_TYPE_MESH: none
       CLUSTER_RG:  Apps02_K8S_${{ github.event.inputs.cluster_name }}_RG
       CLUSTER_NAME: ${{ github.event.inputs.cluster_name }}
-      GITHUB_ACCOUNT: briandenicola
+      GITHUB_ACCOUNT: saswatmohanty01
       GITHUB_REPO: kubernetes-cluster-setup
       REPO_BRANCH: cluster/default_cluster_name
 
