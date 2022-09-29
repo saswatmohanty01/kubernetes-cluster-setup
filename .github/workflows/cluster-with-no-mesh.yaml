@@ -37,7 +37,7 @@ jobs:
 
     - name: Login to Azure
       run: |
-        az login --identity -u 
+        az login --identity 
 
     - name: "Terraform Setup"
       uses: hashicorp/setup-terraform@v1
