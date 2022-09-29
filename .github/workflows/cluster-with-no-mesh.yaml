@@ -23,7 +23,7 @@ jobs:
       SERVICE_TYPE_MESH: none
       CLUSTER_RG:  Apps02_K8S_${{ github.event.inputs.cluster_name }}_RG
       CLUSTER_NAME: ${{ github.event.inputs.cluster_name }}
-      GITHUB_ACCOUNT: briandenicola
+      GITHUB_ACCOUNT: saswatmohanty01
       GITHUB_REPO: kubernetes-cluster-setup
       REPO_BRANCH: cluster/ka25c56
 
@@ -37,7 +37,7 @@ jobs:
 
     - name: Login to Azure
       run: |
-        az login --identity -u ${{ env.ARM_CLIENT_ID }}
+        az login --identity -u 
 
     - name: "Terraform Setup"
       uses: hashicorp/setup-terraform@v1
