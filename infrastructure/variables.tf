@@ -1,6 +1,6 @@
 variable "location" {
   description = "The Azure Region to deploy AKS"
-  default     = "southcentralus"
+  default     = "centralus"
 }
 
 variable "k8s_vnet_resource_group_name" {
@@ -47,7 +47,7 @@ variable "load_balancer_sku" {
 }
 
 variable "core_subscription" {
-  default     = "2deb88fe-eca8-499a-adb9-6e0ea8b6c1d2"
+  default     = "86db72c7-d736-4e05-8b1d-f5a8002f9792"
   description = "The subscription where Azure Container Repo lives"
 }
 
